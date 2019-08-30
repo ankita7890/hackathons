@@ -1,4 +1,4 @@
-# Analytics Vidya ML-hiring-hackathon
+# Analytics Vidhya ML hiring hackathon
 Loan Delinquency Prediction
 Loan default prediction is one of the most critical and crucial problem faced by financial institutions and organizations as it has a noteworthy effect on the profitability of these institutions. In recent years, there is a tremendous increase in the volume of non – performing loans which results in a jeopardizing effect on the growth of these institutions. Therefore, to maintain a healthy portfolio, the banks put stringent monitoring and evaluation measures in place to ensure timely repayment of loans by borrowers. Despite these measures, a major proportion of loans become delinquent. Delinquency occurs when a borrower misses a payment against his/her loan.
 
@@ -33,6 +33,6 @@ sample_submission.zip
 sample_submission.zip contains the submission format for the predictions against the test set. A single csv needs to be submitted as a solution.  
 
 Evaluation Metric  
-Submissions are evaluated on F1-Score between the predicted class and the observed target.  
+Submissions are evaluated on F1-Score between the predicted class and the observed target. Whenever there is a imbalanced dataset in a binary classificaiton problem, it makes sense to evaluate the models using F1-score.
 
 F1-Score: 0.33  
